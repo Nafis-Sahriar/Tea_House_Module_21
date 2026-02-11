@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,10 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
-        *{
+        * {
             font-family: "Manrope", sans-serif;
         }
     </style>
@@ -27,32 +30,106 @@
 
 <body>
 
-     <!--Banner Section -->
-     <section class="grid grid-cols-2 container border border-red-500 mx-auto">
-        
+    <!--Banner Section -->
+    <section class="grid grid-cols-1 md:grid-cols-2 container  mx-auto">
+
         <div class="bannerleft space-y-[30px]">
 
             <h1 class="text-[80px] font-bold">It's good <br> tea time at The <br> Tea House</h1>
 
-            <p class="text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+            <p class="text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste
+                Buds.</p>
 
-            <button class="py-3 px-5 rounded=md text-white font-semibold bg-linear-to-r from-[#FF8938] to-[#FF0000]">Explore More 
+            <button
+                class="py-3 px-5 rounded-[10px] text-[20px] text-white font-bold bg-linear-to-r from-[#FF8938] to-[#FF0000] w-[200px]">Explore
+                More
 
                 <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span></button>
 
         </div>
-
-        <div class="bannerright">
+        <div class="bannerright flex justify-end items-end relative">
 
             <img src="./Styles/images/banner.png" alt="">
 
+            <!--Rating Div-->
+            <div class="flex justify-center items-center gap-3 rounded-2xl bg-amber-50 
+                        w-[255px] h-[100px] absolute bottom-[15px] left-[180px] py-[20px] px-[15px]">
+                <img src="./Styles/images/star.png" alt="">
+
+                <div>
+
+                    <h2 class="font-bold text-2xl">5.00</h2>
+                    <p class="text-[#777777]">Trust Pilot Ratings</p>
+
+                </div>
+
+            </div>
+
+
+
+
         </div>
-        
-     </section>
 
 
- 
-   
+
+    </section>
+
+    <!-- Feature Section -->
+    <section class="container mx-auto my-[60px]">
+
+        <!-- Feature Section Header -->
+
+        <div class="feature_header text-center max-w-[900px] mx-auto mb-[60px]">
+
+            <h2 class="font-bold text-[45px]">Our Featured Products</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            
+        </div>
+
+        <div class="card_container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[24px]">
+
+            <div class="cards bg-linear-to-r from-[#F4F4F4] to-[#F4F4F4] p-7 text-center rounded-[10px]">
+
+                <img src="./Styles/images/tea-1.png" alt="" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Milk Tea</h2>
+                <p class="text-[#777777]">Creamear could be replaced <br> by fresh milk!</p>
+
+            </div>
+            <div class="cards bg-linear-to-r from-[#F4F4F4] to-[#F4F4F4] p-7 text-center rounded-[10px]">
+
+                <img src="./Styles/images/tea-2.png" alt=""class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Black Tea</h2>
+                <p class="text-[#777777]">Creamear could be replaced <br>by fresh milk!</p>
+
+            </div>
+            <div class="cards bg-linear-to-r from-[#F4F4F4] to-[#F4F4F4] p-7 text-center rounded-[10px]">
+
+                <img src="./Styles/images/tea-3.png" alt=""class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Lemon Tea</h2>
+                <p class="text-[#777777]">Creamear could be replaced <br> by fresh milk!</p>
+
+            </div>
+            <div class="cards bg-linear-to-r from-[#F4F4F4] to-[#F4F4F4] p-7 text-center rounded-[10px]">
+
+                <img src="./Styles/images/tea-4.png" alt=""class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Green Tea</h2>
+                <p class="text-[#777777]">Creamear could be replaced <br>by fresh milk!</p>
+
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
 
 </body>
 
